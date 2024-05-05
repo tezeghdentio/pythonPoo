@@ -20,7 +20,7 @@ class client:
         return f"{self.email}"
     def deleteUser(self):
         client.numClient-=1
-        return f"User {self.getFullName} deleted"
+        return f"User {self.getFullName()} deleted"
 print(client.numClient)
 c1=client("Mr","TEZEHDENTI","Oussama",39,"tezeghdenti@gmail.com")
 c2=client("Mr","TOUNSI","Salah",40,"Tounsi@gmail.com")
